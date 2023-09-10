@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-primary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand">Movie App</a>
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-3">
+      <h1 class="text-center display-2">Movie App</h1>
+      <!-- Popular Movies -->
+      <div class="mt-3">
+        <h2>Popular Movies</h2>
+        <div class="row" id="popularMovies"></div>
+      </div>
+      <!-- Upcoming Movies -->
+      <div class="mt-3">
+        <h2>Upcoming Movies</h2>
+        <div class="row" id="upcomingMovies"></div>
+      </div>
+    <!-- Top Rated Movies -->
+    <div class="mt-3">
+        <h2>Top Rated Movies</h2>
+        <div class="row" id="topRatedMovies"></div>
+      </div>
+    <!-- Now Playing Movies -->
+    <div class="mt-3">
+        <h2>Now Playing Movies</h2>
+        <div class="row" id="nowPlayingMovies"></div>
+      </div>
+    <script src="index.js"></script>
+  </body>
+</html>
