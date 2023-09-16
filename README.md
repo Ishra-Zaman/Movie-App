@@ -40,7 +40,7 @@ To deploy this project on your local machine or incorporate it into your own app
 
 1. Clone the repository to your local machine using the following command:
 
-  **git clone https://github.com/your-username/movie-app.git**
+    **git clone https://github.com/your-username/movie-app.git**
 
 3. Open the project folder in your desired code editor.
 
